@@ -2,7 +2,7 @@
 
 https://gist.github.com/loknop/b27422d355ea1fd0d90d6dbc1e278d4d
 
-```
+```python
 import requests
 
 url = "http://localhost/index.php"
