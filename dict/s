@@ -1,1 +1,1 @@
-php://filter/convert.iconv.UHC.CP1025|convert.iconv.ISO-8859-5.UTF-8|convert.iconv.UHC.CP950/resource=./init
+convert.iconv.UTF8.CSISO2022KR|convert.iconv.EUC-KR.CP1025|convert.iconv.ISO-8859-7.Shift_JIS|convert.iconv.UHC.UCS-4LE

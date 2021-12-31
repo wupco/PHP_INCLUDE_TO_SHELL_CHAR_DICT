@@ -56,9 +56,6 @@ $iconv_list = [
 $filter_list = [
     'string.rot13',
     'convert.iconv.*',
-    'convert.iconv.*',
-    'convert.iconv.*',
-    'convert.iconv.*'
 ];
 print_r($filter_list);
 $prev_str = "";
@@ -73,15 +70,15 @@ while(1){
     $tmp_str = "";
     $rand = rand(1,999999);
     $op = '';
-    if($rand % 12 > 3){
+    if($rand % 6 > 1){
         $rand_2 = rand(1,999999);
         $rand_3 = rand(1,999999);
         $icon1 = $iconv_list[$rand_2 % count($iconv_list)];
         $icon2 = $iconv_list[$rand_3 % count($iconv_list)];
-        $op = str_replace('*',$icon1.'.'.$icon2,$filter_list[4]);
+        $op = str_replace('*',$icon1.'.'.$icon2,$filter_list[1]);
     }
     else{
-        $op =  $filter_list[$rand % 12];
+        $op =  $filter_list[0];
     }
     $tmp_str = file_get_contents('php://filter/'.$op_all.(($op_all == "")?'':'|').$op.'/resource='.$input);
     if(!$tmp_str){
@@ -105,11 +102,11 @@ while(1){
             if(file_exists("/tmp/a/".$res[1][0])){
                 $size = strlen(file_get_contents("/tmp/a/".$res[1][0]));
                 if($size>strlen("php://filter/" . $op_all.(($op_all == "")?'':'|').$op . '/resource=' . $input)){
-                    file_put_contents("/tmp/a/" . $res[1][0], "php://filter/" . $op_all.(($op_all == "")?'':'|').$op . '/resource=' . $input);
+                    file_put_contents("/tmp/a/" . $res[1][0], "convert.iconv.UTF8.CSISO2022KR|" . $op_all.(($op_all == "")?'':'|').$op);
                 }
             }
             else{
-                file_put_contents("/tmp/a/" . $res[1][0], "php://filter/" . $op_all.(($op_all == "")?'':'|').$op . '/resource=' . $input);
+                file_put_contents("/tmp/a/" . $res[1][0], "convert.iconv.UTF8.CSISO2022KR|" . $op_all.(($op_all == "")?'':'|').$op);
 
             }
     }

@@ -1,1 +1,1 @@
-php://filter/convert.iconv.ISO-2022-KR.UTF-16|convert.iconv.ISO-8859-4.UCS-4LE/resource=./init
+convert.iconv.UTF8.CSISO2022KR|string.rot13|convert.iconv.KOI8-R.IBM1154|convert.iconv.CP866.UCS-2LE

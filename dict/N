@@ -1,1 +1,1 @@
-php://filter/convert.iconv.CP866.UTF-7|convert.iconv.UHC.CP1025/resource=./init
+convert.iconv.UTF8.CSISO2022KR|convert.iconv.UHC.UTF-7|convert.iconv.EUC-JP.CP1025

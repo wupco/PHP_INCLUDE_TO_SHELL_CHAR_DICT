@@ -1,1 +1,1 @@
-php://filter/convert.iconv.CP936.CP1025|convert.iconv.KOI8-U.EUC-JP|convert.iconv.UHC.UTF-16BE/resource=./init
+convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP950.IBM1154|convert.iconv.KOI8-U.CP936|convert.iconv.EUC-KR.UCS-4BE

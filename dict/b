@@ -1,1 +1,1 @@
-php://filter/convert.iconv.UHC.IBM1154|convert.iconv.ISO-8859-7.CP936|convert.iconv.EUC-TW.UTF-32/resource=./init
+convert.iconv.UTF8.CSISO2022KR|string.rot13|convert.iconv.EUC-CN.IBM1154|convert.iconv.CP866.CP936|string.rot13

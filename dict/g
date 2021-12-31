@@ -1,1 +1,1 @@
-php://filter/string.rot13|convert.iconv.CP866.CP1025|convert.iconv.ISO-8859-5.EUC-CN|convert.iconv.Shift_JIS.UCS-2LE/resource=./init
+convert.iconv.UTF8.CSISO2022KR|convert.iconv.EUC-KR.IBM1154|convert.iconv.ISO-8859-1.UCS-2BE|convert.iconv.CP1025.EUC-CN|convert.iconv.ISO-8859-4.IBM1154|convert.iconv.ISO-8859-13.UTF-8|convert.iconv.KOI8-U.EUC-CN|convert.iconv.CP936.Shift_JIS|string.rot13

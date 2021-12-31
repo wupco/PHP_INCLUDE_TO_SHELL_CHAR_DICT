@@ -1,1 +1,1 @@
-php://filter/string.rot13/resource=./init
+convert.iconv.UTF8.CSISO2022KR|string.rot13

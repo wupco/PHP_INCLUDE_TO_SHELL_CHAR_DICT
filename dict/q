@@ -1,1 +1,0 @@
-php://filter/convert.iconv.ISO-2022-KR.ISO-8859-15|convert.iconv.CP1025.ISO-8859-4|convert.iconv.Windows-1251.IBM1154/resource=./init
