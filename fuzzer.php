@@ -20,6 +20,7 @@ $news = "";
 $op_all = "convert.iconv.UTF8.CSISO2022KR";
 $found_count = 0;
 $op_all_max = 2000;
+$last_op = "";
 $init_value = file_get_contents($input);
 $max_c_len = strlen($init_value) * 5;
 if(!is_dir('./res')){
