@@ -1,1 +1,1 @@
-convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP1025.UCS-4BE|convert.iconv.ISO-8859-9.CP1025
+convert.iconv.UTF8.CSISO2022KR|convert.iconv.CP1025.UCS-4LE|convert.iconv.ISO-8859-3.IBM1154

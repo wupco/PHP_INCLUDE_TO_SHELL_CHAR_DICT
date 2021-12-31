@@ -1,1 +1,1 @@
-convert.iconv.UTF8.CSISO2022KR|string.rot13|convert.iconv.BIG-5.CP1025|convert.iconv.Shift_JIS.UTF-32LE|convert.iconv.CP1025.EUC-JP
+convert.iconv.UTF8.CSISO2022KR|convert.iconv.ISO-2022-KR.UTF-16|convert.iconv.ISO-8859-2.UTF-16BE|string.rot13
