@@ -1,0 +1,1 @@
+php://filter/convert.iconv.CP866.UTF-7|convert.iconv.UHC.CP1025/resource=./init

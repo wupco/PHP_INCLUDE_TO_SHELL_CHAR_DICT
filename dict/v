@@ -1,0 +1,1 @@
+php://filter/convert.iconv.CP950.UTF-32|convert.iconv.Windows-1251.CP1025/resource=./init

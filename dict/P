@@ -1,0 +1,1 @@
+php://filter/string.rot13/resource=./init

