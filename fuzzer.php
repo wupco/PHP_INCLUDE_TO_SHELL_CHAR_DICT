@@ -17,7 +17,7 @@ $filter_list = [
 print_r($filter_list);
 $prev_str = "";
 $news = "";
-$op_all = "convert.iconv.UTF8.CSISO2022KR";
+$op_all = "";
 $found_count = 0;
 $op_all_max = 2000;
 $last_op = "";
@@ -73,7 +73,7 @@ while(1){
     if(strlen($op_all)>$op_all_max){
         $last_op = "";
         if(rand(1,999999)% 5 > 2){
-            $op_all = "convert.iconv.UTF8.CSISO2022KR";
+            $op_all = "";
             continue;
         }
         $r_t = rand(1,999999);
@@ -87,7 +87,7 @@ while(1){
     if(strlen($tmp_str) > $max_c_len){
         $last_op = "";
         if(rand(1,999999)% 5 > 2){
-            $op_all = "convert.iconv.UTF8.CSISO2022KR";
+            $op_all = "";
             continue;
         }
         $r_t = rand(1,999999);
@@ -117,7 +117,7 @@ while(1){
             }
             $last_op = "";
             if(rand(1,999999)% 5 > 2){
-                $op_all = "convert.iconv.UTF8.CSISO2022KR";
+                $op_all = "";
                 continue;
             }
             $r_t = rand(1,999999);
@@ -131,7 +131,7 @@ while(1){
     if($tmp_str === $init_value){
         $last_op = "";
         if(rand(1,999999)% 5 > 2){
-            $op_all = "convert.iconv.UTF8.CSISO2022KR";
+            $op_all = "";
             continue;
         }
         $r_t = rand(1,999999);
