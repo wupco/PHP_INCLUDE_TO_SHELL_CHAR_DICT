@@ -71,6 +71,7 @@ while(1){
         continue;
     }
     if(strlen($op_all)>$op_all_max){
+        $last_op = "";
         if(rand(1,999999)% 5 > 2){
             $op_all = "convert.iconv.UTF8.CSISO2022KR";
             continue;
@@ -84,6 +85,7 @@ while(1){
         continue;
     }
     if(strlen($tmp_str) > $max_c_len){
+        $last_op = "";
         if(rand(1,999999)% 5 > 2){
             $op_all = "convert.iconv.UTF8.CSISO2022KR";
             continue;
@@ -113,6 +115,7 @@ while(1){
             else{
                 file_put_contents("./res/" . $r, $op_all.(($op_all == "")?'':'|').$op);
             }
+            $last_op = "";
             if(rand(1,999999)% 5 > 2){
                 $op_all = "convert.iconv.UTF8.CSISO2022KR";
                 continue;
@@ -126,6 +129,7 @@ while(1){
             continue;
     }
     if($tmp_str === $init_value){
+        $last_op = "";
         if(rand(1,999999)% 5 > 2){
             $op_all = "convert.iconv.UTF8.CSISO2022KR";
             continue;
