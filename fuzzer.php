@@ -108,7 +108,7 @@ while(1){
             echo "[!!] Magic:\n ------------------------------------------\n " . $tmp_str . "\n";
             if(file_exists("./res/".$r)){
                 $size = strlen(file_get_contents("./res/".$r));
-                if($size>strlen("php://filter/" . $op_all.(($op_all == "")?'':'|').$op . '/resource=' . $input)){
+                if($size>strlen($op_all.(($op_all == "")?'':'|').$op)){
                     file_put_contents("./res/" . $r,  $op_all.(($op_all == "")?'':'|').$op);
                 }
             }
