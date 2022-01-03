@@ -1,1 +1,1 @@
-convert.iconv.SJIS.UTF-16|convert.iconv.ISO-8859-5.ISO2022JP2|convert.iconv.ISO2022JP.UTF-16LE
+convert.iconv.INIS.UTF16|convert.iconv.CSIBM1133.IBM943|convert.iconv.IBM-943.SHIFT_JISX0213
